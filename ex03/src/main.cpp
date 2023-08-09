@@ -3,17 +3,33 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eralonso <eralonso@student.42.fr>          +#+  +:+       +#+        */
+/*   By: pramos-m <pramos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/02 12:12:59 by eralonso          #+#    #+#             */
-/*   Updated: 2023/07/02 12:21:37 by eralonso         ###   ########.fr       */
+/*   Updated: 2023/08/09 20:49:52 by pramos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"HumanA.hpp"
-#include	"HumanB.hpp"
+#include	"../inc/HumanA.hpp"
+#include	"../inc/HumanB.hpp"
 
-int main( void )
+int main()
 {
-	return (0);
+	{
+		Weapon club = Weapon("crude spiked club");
+		HumanA bob("Bob", club);
+		bob.attack();
+		club.setType("some other type of club");
+		bob.attack();
+	}
+	{
+		Weapon club = Weapon("crude spiked club");
+		HumanB jim("Jim");
+		jim.setWeapon(club);
+		jim.attack();
+		club.setType("some other type of club");
+		jim.attack();
+	}
+	
+	return 0;
 }

@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   HumanA.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eralonso <eralonso@student.42.fr>          +#+  +:+       +#+        */
+/*   By: pramos-m <pramos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/02 12:06:01 by eralonso          #+#    #+#             */
-/*   Updated: 2023/07/02 12:16:20 by eralonso         ###   ########.fr       */
+/*   Updated: 2023/08/09 21:00:43 by pramos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include	<iostream>
-#include	"HumanA.hpp"
+#include	"../inc/HumanA.hpp"
 
 HumanA::HumanA( std::string name, Weapon &weapon ): _name(name), _weapon(weapon) {}
 

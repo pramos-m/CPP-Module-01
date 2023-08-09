@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   Weapon.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eralonso <eralonso@student.42.fr>          +#+  +:+       +#+        */
+/*   By: pramos-m <pramos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/02 11:57:44 by eralonso          #+#    #+#             */
-/*   Updated: 2023/07/02 12:06:07 by eralonso         ###   ########.fr       */
+/*   Updated: 2023/08/09 20:47:35 by pramos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"Weapon.hpp"
+#include	"../inc/Weapon.hpp"
 
 Weapon::Weapon(std::string type): _type(type) {}
 
