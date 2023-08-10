@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"Zombie.hpp"
+#include	"../inc/Zombie.hpp"
 #include	<iostream>
 
 Zombie::Zombie( std::string name )
@@ -18,12 +18,12 @@ Zombie::Zombie( std::string name )
 	_name = name;
 }
 
-Zombie::~Zombie( void )
-{
-	std::cout << _name << " die, again." << std::endl;
-}
-
-void	Zombie::announce( void )
+void	Zombie::announce(void)
 {
 	std::cout << _name << ": BraiiiiiiinnnzzzZ..." << std::endl;
+}
+
+Zombie::~Zombie(void)
+{
+	std::cout << _name << " die, again." << std::endl;
 }

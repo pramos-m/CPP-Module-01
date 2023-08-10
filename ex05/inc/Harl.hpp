@@ -18,7 +18,7 @@
 class Harl
 {
 	private:
-		void		(Harl::*_fpm[4])( void );
+		void		(Harl::*_exec_levels[4])(void);
 		std::string	_levels[4];
 		void		_debug( void );
 		void		_info( void );

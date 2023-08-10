@@ -14,7 +14,7 @@ NAME = Brainz
 SRC_DIR = src
 INC_DIR = inc
 
-SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/Zombie.cpp $(SRC_DIR)/newZombie.cpp $(SRC_DIR)/randomChump.cpp
+SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/Zombie.cpp $(SRC_DIR)/zombieHorde.cpp
 OBJ = $(SRC:.cpp=.o)
 CC = g++
 RM = rm -f

@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include	<iostream>
-#include	"Harl.hpp"
+#include	"../inc/Harl.hpp"
 
 Harl::Harl( void )
 {

@@ -10,17 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"Zombie.hpp"
+#include	"../inc/Zombie.hpp"
 
 int	main( void )
 {
-	Zombie	*horde;
+	Zombie	*Horde;
 	int		N;
 
 	N = 5;
-	horde = zombieHorde(N, "Fred");
-	for (int i = 0; i < N; i++)
-		horde[i].announce();
-	delete [] horde;
+	Horde = zombieHorde(N, "Fred");
+	for (int i; i < N; i++)
+		Horde[i].announce();
+	delete [] Horde;
 	return (0);
 }

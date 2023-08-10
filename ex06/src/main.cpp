@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"Harl.hpp"
 #include	<iostream>
+#include	"../inc/Harl.hpp"
 
 int	main( int ac, char **av )
 {
