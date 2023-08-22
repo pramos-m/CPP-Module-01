@@ -6,11 +6,11 @@
 #    By: pramos-m <pramos-m@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/26 19:26:26 by pramos-m          #+#    #+#              #
-#    Updated: 2023/08/04 15:52:59 by pramos-m         ###   ########.fr        #
+#    Updated: 2023/08/22 12:56:00 by pramos-m         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Brainz
+NAME = Harl
 SRC_DIR = src
 INC_DIR = inc
 
