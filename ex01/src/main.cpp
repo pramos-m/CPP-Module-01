@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: pramos-m <pramos-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/02 11:08:58 by eralonso          #+#    #+#             */
-/*   Updated: 2023/08/16 15:17:29 by pramos-m         ###   ########.fr       */
+/*   Created: 2023/08/22 12:48:47 by pramos-m          #+#    #+#             */
+/*   Updated: 2023/08/22 12:48:49 by pramos-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	main( void )
 
 	N = 5;
 	Horde = zombieHorde(N, "Fred");
-	for (int i; i < N; i++)
+	for (int i = 0; i < N; i++)
 		Horde[i].announce();
 	delete [] Horde;
 	return (0);
